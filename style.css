@@ -1,0 +1,87 @@
+@font-face {
+  font-family: Standing ;
+  src: url(./Fonts/Standing.otf);
+}
+body{
+  margin: 0;
+  background-color: rgb(54, 69, 78);
+  padding-bottom: 2rem;
+}
+audio{
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+    
+}
+p{
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  font-family: Standing;
+  font-size: 1.1rem;
+  user-select: none;
+}
+
+.Mark{
+  height: 3rem;
+  width: 100%;
+  background-color:rgb(0, 0, 0);
+  box-sizing: border-box;
+  text-align: center;
+  overflow: hidden;
+}
+
+.Main{
+  padding-top: 2rem;
+  box-sizing: border-box;
+
+}
+
+.name{
+  position: relative;
+  font-size: 1.5rem;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+}
+.shesh {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  width: 90%;
+  background-color: rgb(233, 209, 165);
+  border-radius: 16px;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  background-image: url("Img/Seamless-Retro-Paper-Texture.png");
+  background-blend-mode: multiply;
+  overflow: hidden;
+}
+
+.shesh {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  width: 90%;
+  background-color: rgb(232, 208, 162);
+  border-radius: 16px;
+  overflow: hidden;
+ 
+}
+
+.black{
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  width: 90%;
+  background-color: rgb(101, 154, 223);
+  background-image: url("Img/Seamless-Retro-Paper-Texture.png");
+  background-blend-mode: multiply;
+  border-radius: 16px;
+  overflow: hidden;
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+
+
