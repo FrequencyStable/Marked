@@ -1,7 +1,7 @@
 const audioList = document.querySelectorAll("audio")
 
 
-audioList.forEach(audioList => {
+audioList.forEach(audio => {
   audio.addEventListener('play', () =>{
     alert('shesh')
   })
